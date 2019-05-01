@@ -1,0 +1,41 @@
+// COLORS //
+$color-light: #ffffff;
+$color-dark: #111111;
+// $nav-font-color: #111111;
+$color-accent: #68b738;
+$color-accent-darker: #5eaa2f;
+// $accent-font-color: #ffffff;
+$color-off: #f2f2f2; // darken($color-light, 5);
+$color-off-darker: #ebebeb; // darken($color-light, 8);
+$color-off-text: #444444; // lighten($color-dark, 20);
+$color-catalog-border: #ededed; // darken($color-light, 7);
+$color-input-border: #e6e6e6; // darken($color-light, 10);
+$color-input-border-darker: #cdcdcd; // darken($color-input-border, 10);
+$color-input-border-selected: #444444; // lighten($color-dark, 20);
+$color-input-border-error: #ff8282;
+$color-input-text: #444444; // lighten($color-dark, 20);
+
+
+
+// FONT //
+$font-primary: "Oswald", Arial, Helvetica, sans-serif;
+$font-secondary: Arial, Helvetica, sans-serif;
+
+
+// FONT WEIGHT //
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+
+
+// FONT SIZE //
+$font-size-main: 14px;
+
+
+// LINE-HEIGHT //
+$line-height-main: 18px;
+
+
+// WIDTH //
+$width-mobile-max: 320px;
+$width-mobile-wrapper: 280px;
+$width-mobile-wrapper-half: calc(#{$width-mobile-wrapper} * 0.5);

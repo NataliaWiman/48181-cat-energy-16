@@ -2,19 +2,21 @@
 <html lang='ru'>
   <head>
     <meta charset="utf-8">
-    <title>Интернет-магазин «Кэт энерджи»</title>
+    <title>HTML Academy: Кэт энерджи - Подбор программы</title>
+    <link href="source/css/style.css" rel="stylesheet">
   </head>
   <body>
 
     <header class="page-header">
-      <a class="page-header__logo-icon">
-        <img class="page-header__logo-icon-image" src="http://placehold.it/33x38" width="33" height="38" alt="Интернет-магазин «Кэт энерджи»">
-      </a>
-      <a class="page-header__logo-header">
-          <img class="page-header__logo-header-image" src="http://placehold.it/101x18" width="101" height="18" alt="Интернет-магазин «Кэт энерджи»">
-      </a>
+      <div class="page-header__wrapper">
+        <a class="page-header__logo" href="index.html">
+          <img class="page-header__logo-image page-header__logo-image" src="http://placehold.it/192x39" width="192" height="39" alt="Интернет-магазин «Кэт энерджи»">
+        </a>
+        <div class="page-header__btn-toggle">
+          <button class="page-header__btn-toggle--hamburger" type="button" aria-label="Открыть меню">
+        </div>
+      </div>
       <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">Открыть меню</button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list nav-list">
             <li class="nav-list__item">
@@ -24,7 +26,7 @@
               <a class="nav-list__link" href="catalog.html">Каталог продукции</a>
             </li>
             <li class="nav-list__item">
-              <a class="nav-list__link nav-list__link--active">Подбор программы</a>
+              <a class="nav-list__link--current">Подбор программы</a>
             </li>
           </ul>
         </div>

@@ -1,0 +1,132 @@
+.features {
+  background-color: $color-light;
+}
+
+.features__header {
+  padding-bottom: 22px;
+
+  color: $color-light;
+
+  background-color: #63a73a;
+  background-image: url("../img/index-can-mobile@1x.png"),
+    url("../img/index-background-mobile@1x.jpg"),
+    linear-gradient(to bottom, transparent 305px, $color-light 175px);
+  background-repeat: no-repeat;
+  background-position: center 166px, top center, center;
+}
+
+.features__wrapper {
+  width: 280px;
+  margin: 0 auto;
+}
+
+.features__slogan {
+  margin: 0;
+  padding-top: 22px;
+  margin-bottom: 22px;
+
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.features__intro {
+  margin: 0px;
+  padding-bottom: 300px;
+
+  font-size: $font-size-main;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.features__button {
+  display: block;
+  width: 100%;
+  padding-top: 11px;
+  padding-bottom: 11px;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: $color-light;
+
+  background-color: $color-accent;
+}
+
+.features__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.features__item {
+  margin-bottom: 20px;
+
+  background-color: $color-off;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.features__title {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 92px;
+  padding-right: 22px;
+  margin: 0;
+
+  font-size: 24px;
+  font-weight: $font-weight-medium;
+  line-height: 37px;
+  text-transform: uppercase;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 24px;
+    left: 22px;
+    display: block;
+    width: 50px;
+    height: 50px;
+
+    background-color: $color-accent;
+    border-radius: 50px;
+  }
+}
+
+.features__description {
+  width: 240px;
+  margin: 0;
+  margin-left: 22px;
+  margin-right: 22px;
+  padding-bottom: 22px;
+
+  font-family: $font-secondary;
+  font-size: $font-size;
+  line-height: $line-height;
+
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.features__link {
+  display: block;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 22px;
+  padding-right: 22px;
+
+  font-size: 16px;
+  font-weight: $font-weight-medium;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $color-dark;
+
+  &:active {
+    color: rgba($color-dark, 0.3);
+  }
+}
+
+

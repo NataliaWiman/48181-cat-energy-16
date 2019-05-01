@@ -1,0 +1,59 @@
+.page-header {
+  position: relative;
+  color: $color-dark;
+  background-color: $color-light;
+}
+
+.page-header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: $width-mobile-wrapper;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.page-header__logo {
+  display: flex;
+  align-items: center;
+  width: 101x;
+  height: 18px;
+}
+
+.page-header__btn-toggle {
+  position: relative;
+  display: block;
+  width: 24px;
+  height: 18px;
+  background-color: transparent;
+  cursor: pointer;
+
+  &--hamburger,
+  &--hamburger:before,
+  &--hamburger:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 24px;
+    height: 2px;
+    border: 0;
+    background-color: lighten($color-dark, 6.5);
+  }
+
+  &--hamburger {
+    top: 8px;
+  }
+
+  &--hamburger:before {
+    top: -8px;
+  }
+
+  &--hamburger:after {
+    bottom: -8px;
+  }
+}

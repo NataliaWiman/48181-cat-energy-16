@@ -1,0 +1,15 @@
+.catalog {
+  background-color: $color-light;
+  color: $color-dark;
+}
+
+.catalog__wrapper {
+  width: $width-mobile-wrapper;
+  margin: 0 auto;
+}
+
+.catalog__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,25 @@
+.copyright {
+  padding-top: 22px;
+}
+
+.copyright__wrapper {
+  width: $width-mobile-wrapper;
+  margin: 0 auto;
+}
+
+.copyright__link {
+  font-family: $font-secondary;
+  font-weight: $font-weight-regular;
+  line-height: 16px;
+  color: $color-off-text;
+  text-align: left;
+
+  &:hover,
+  &:focus {
+    color: $color-off-text;
+  }
+
+  &:active {
+    color: rgba($color-off-text, 0.3);
+  }
+}
