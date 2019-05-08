@@ -3,19 +3,20 @@ $color-light: #ffffff;
 $color-dark: #111111;
 $color-accent: #68b738;
 $color-accent-darker: #5eaa2f;
-$color-off: #f2f2f2; // darken($color-light, 5);
-$color-off-darker: #ebebeb; // darken($color-light, 8);
-$color-off-text: #444444; // lighten($color-dark, 20);
-$color-catalog-border: #ededed; // darken($color-light, 7);
-$color-input-border: #e6e6e6; // darken($color-light, 10);
-$color-input-border-darker: #cdcdcd; // darken($color-input-border, 10);
-$color-input-border-selected: #444444; // lighten($color-dark, 20);
+$color-off: #f2f2f2;
+$color-off-darker: #ebebeb;
+$color-off-text: #444444;
+$color-catalog-border: #ededed;
+$color-input-border: #e6e6e6;
+$color-input-border-darker: #cdcdcd;
+$color-input-border-selected: #444444;
 $color-input-border-error: #ff8282;
-$color-input-text: #444444; // lighten($color-dark, 20);
+$color-input-text: #444444;
+$color-border-darker: #cdcdcd;
 
 // FONT //
-$font-primary: "Oswald", Arial, Helvetica, sans-serif;
-$font-secondary: Arial, Helvetica, sans-serif;
+$font-primary: "Oswald", arial, helvetica, sans-serif;
+$font-secondary: arial, helvetica, sans-serif;
 
 // FONT WEIGHT //
 $font-weight-regular: 400;

@@ -4,9 +4,7 @@
 
 .features__header {
   padding-bottom: 22px;
-
   color: $color-light;
-
   background-color: #63a73a;
   background-image: url("../img/index-can-mobile@1x.png"),
     url("../img/index-background-mobile@1x.jpg"),
@@ -24,7 +22,6 @@
   margin: 0;
   padding-top: 22px;
   margin-bottom: 22px;
-
   font-size: 36px;
   line-height: 36px;
   text-align: center;
@@ -33,7 +30,6 @@
 .features__intro {
   margin: 0px;
   padding-bottom: 300px;
-
   font-size: $font-size-main;
   line-height: 14px;
   text-align: center;
@@ -45,11 +41,9 @@
   width: 100%;
   padding-top: 11px;
   padding-bottom: 11px;
-
   text-align: center;
   text-transform: uppercase;
   color: $color-light;
-
   background-color: $color-accent;
 }
 
@@ -61,7 +55,6 @@
 
 .features__item {
   margin-bottom: 20px;
-
   background-color: $color-off;
 
   &:last-child {
@@ -76,7 +69,6 @@
   padding-left: 92px;
   padding-right: 22px;
   margin: 0;
-
   font-size: 24px;
   font-weight: $font-weight-regular;
   line-height: 37px;
@@ -90,7 +82,6 @@
     display: block;
     width: 50px;
     height: 50px;
-
     background-color: $color-accent;
     border-radius: 50px;
   }
@@ -102,11 +93,9 @@
   margin-left: 22px;
   margin-right: 22px;
   padding-bottom: 22px;
-
   font-family: $font-secondary;
   font-size: $font-size;
   line-height: $line-height;
-
   border-bottom: 1px solid #d9d9d9;
 }
 
@@ -117,7 +106,6 @@
   padding-bottom: 20px;
   padding-left: 22px;
   padding-right: 22px;
-
   font-size: 16px;
   font-weight: $font-weight-regular;
   line-height: 16px;

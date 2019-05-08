@@ -13,7 +13,7 @@
           <img class="page-header__logo-image page-header__logo-image" src="http://placehold.it/192x39" width="192" height="39" alt="Интернет-магазин «Кэт энерджи»">
         </a>
         <div class="page-header__btn-toggle">
-          <button class="page-header__btn-toggle--hamburger" type="button" aria-label="Открыть меню">
+          <button class="page-header__btn-toggle--hamburger" type="button" aria-label="Открыть меню"></button>
         </div>
       </div>
       <nav class="main-nav">
@@ -42,19 +42,19 @@
       <form class="form" method="post" action="http://echo.htmlacademy.ru">
         <fieldset class="form__fieldset">
           <div class="form__wrapper">
-            <legend class="visually-hidden">Информация о питомце</legend>
+            <h2 class="visually-hidden">Информация о питомце</h2>
             <div class="form__fieldset-inner">
-              <div class="form__fieldset-item">
-                <label class="form__label-text" for="pet-name">Имя:*</label>
-                <input class="form__input-text" id="pet-name" type="text" name="pet-name" placeholder="Барсик" required>
+              <div class="form__fieldset-item field-text">
+                <label class="field-text__label" for="pet-name">Имя:*</label>
+                <input class="field-text__input" id="pet-name" type="text" name="pet-name" placeholder="Барсик" required>
               </div>
-              <div class="form__fieldset-item">
-                <label class="form__label-text" for="pet-weight">Вес (кг):*</label>
-                <input class="form__input-text" id="pet-weight" type="text" name="pet-weight" placeholder="7" required>
+              <div class="form__fieldset-item field-text">
+                <label class="field-text__label" for="pet-weight">Вес (кг):*</label>
+                <input class="field-text__input" id="pet-weight" type="text" name="pet-weight" placeholder="7" required>
               </div>
-              <div class="form__fieldset-item">
-                <label class="form__label-text" for="pet-age">Возраст (лет):</label>
-                <input class="form__input-text" id="pet-age" type="text" name="pet-age" placeholder="7">
+              <div class="form__fieldset-item field-text">
+                <label class="field-text__label" for="pet-age">Возраст (лет):</label>
+                <input class="field-text__input" id="pet-age" type="text" name="pet-age" placeholder="7">
               </div>
             </div>
           </div>
@@ -62,19 +62,19 @@
 
         <fieldset class="form__fieldset form__fieldset--radio">
           <div class="form__wrapper">
-            <legend class="visually-hidden">Программа</legend>
+            <h2 class="visually-hidden">Программа</h2>
             <div class="form__fieldset-inner">
-              <div class="form__fieldset-item form__fieldset-item--radio">
-                <input class="visually-hidden form__input-radio" type="radio" id="slim" name="program" value="CatEnergy Slim" checked>
-                <label class="form__label-radio" for="slim">Похудение</label>
+              <div class="form__fieldset-item form__fieldset-item--radio field-radio">
+                <input class="visually-hidden" type="radio" id="slim" name="program" value="CatEnergy Slim" checked>
+                <label class="field-radio__label" for="slim">Похудение</label>
               </div>
-              <div class="form__fieldset-item form__fieldset-item--radio">
-                <input class="visually-hidden form__input-radio" type="radio" id="pro" name="program" value="CatEnergy Pro">
-                <label class="form__label-radio" for="pro">Набор массы</label>
+              <div class="form__fieldset-item form__fieldset-item--radio field-radio">
+                <input class="visually-hidden" type="radio" id="pro" name="program" value="CatEnergy Pro">
+                <label class="field-radio__label" for="pro">Набор массы</label>
               </div>
-              <div class="form__fieldset-item form__fieldset-item--radio">
-                <input class="visually-hidden form__input-radio" type="radio" id="need-help" name="program" value="Needs consultation">
-                <label class="form__label-radio" for="need-help">Не знаю (Нужен ваш совет)</label>
+              <div class="form__fieldset-item form__fieldset-item--radio field-radio">
+                <input class="visually-hidden" type="radio" id="need-help" name="program" value="Needs consultation">
+                <label class="field-radio__label" for="need-help">Не знаю (Нужен ваш совет)</label>
               </div>
             </div>
           </div>
@@ -82,15 +82,15 @@
 
         <fieldset class="form__fieldset">
           <div class="form__wrapper">
-            <legend class="form__title">Контактные данные (владельца кота)</legend>
+            <h2 class="form__title">Контактные данные (владельца кота)</h2>
             <div class="form__fieldset-inner">
-              <div class="form__fieldset-item">
-                <label class="form__label-text" for="email">E-mail:*</label>
-                <input class="form__input-text" id="email" type="email" name="E-mail" placeholder="kuklachev@gmail.com" required>
+              <div class="form__fieldset-item field-text">
+                <label class="field-text__label" for="email">E-mail:*</label>
+                <input class="field-text__input field-text__input--contacts" id="email" type="email" name="E-mail" placeholder="kuklachev@gmail.com" required>
               </div>
               <div class="form__fieldset-item">
-                <label class="form__label-text" for="phone">Телефон:*</label>
-                <input class="form__input-text" id="phone" type="tel" name="Номер телефона" placeholder="8 (960) 900-60-90">
+                <label class="field-text__label" for="phone">Телефон:*</label>
+                <input class="field-text__input" id="phone" type="tel" name="Номер телефона" placeholder="8 (960) 900-60-90">
               </div>
             </div>
           </div>
@@ -98,7 +98,7 @@
 
         <fieldset class="form__fieldset">
           <div class="form__wrapper">
-            <legend class="form__title">Комментарий</legend>
+            <h2 class="form__title">Комментарий</h2>
             <div class="form__fieldset-inner">
               <div class="form__fieldset-item">
                 <textarea class="form__textarea" name="Сообщение" rows="8" cols="30" placeholder="Расскажите обо всех повадках кота"></textarea>
@@ -109,23 +109,23 @@
 
         <fieldset class="form__fieldset">
           <div class="form__wrapper">
-            <legend class="form__title">Дополнительно</legend>
+            <h2 class="form__title">Дополнительно</h2>
             <div class="form__fieldset-inner">
-              <div class="form__fieldset-item form__fieldset-item--checkbox">
-                <input class="visually-hidden form__input-checkbox" type="checkbox" id="sweetener" name="sweetener" value="Сахарозаменитель" checked>
-                <label class="form__label-checkbox" for="sweetener">Сахарозаменитель</label>
+              <div class="form__fieldset-item form__fieldset-item--checkbox field-checkbox">
+                <input class="visually-hidden" type="checkbox" id="sweetener" name="sweetener" value="Сахарозаменитель" checked>
+                <label class="field-checkbox__label" for="sweetener">Сахарозаменитель</label>
               </div>
-              <div class="form__fieldset-item form__fieldset-item--checkbox">
-                <input class="visually-hidden form__input-checkbox" type="checkbox" id="water" name="water" value="Питьевая вода">
-                <label class="form__label-checkbox" for="water">Питьевая вода</label>
+              <div class="form__fieldset-item form__fieldset-item--checkbox field-checkbox">
+                <input class="visually-hidden" type="checkbox" id="water" name="water" value="Питьевая вода">
+                <label class="field-checkbox__label" for="water">Питьевая вода</label>
               </div>
-              <div class="form__fieldset-item form__fieldset-item--checkbox">
-                <input class="visually-hidden form__input-checkbox" type="checkbox" id="milk" name="milk" value="Молоко">
-                <label class="form__label-checkbox" for="milk">Молоко</label>
+              <div class="form__fieldset-item form__fieldset-item--checkbox field-checkbox">
+                <input class="visually-hidden" type="checkbox" id="milk" name="milk" value="Молоко">
+                <label class="field-checkbox__label" for="milk">Молоко</label>
               </div>
-              <div class="form__fieldset-item form__fieldset-item--checkbox">
-                <input class="visually-hidden form__input-checkbox" type="checkbox" id="vitamins" name="vitamins" value="Витамины">
-                <label class="form__label-checkbox" for="vitamins">Витамины</label>
+              <div class="form__fieldset-item form__fieldset-item--checkbox field-checkbox">
+                <input class="visually-hidden" type="checkbox" id="vitamins" name="vitamins" value="Витамины">
+                <label class="field-checkbox__label" for="vitamins">Витамины</label>
               </div>
             </div>
           </div>
@@ -144,7 +144,7 @@
       <section class="contacts">
         <div class="page-footer__wrapper">
           <div class="contacts__info">
-            <p class="contacts__partnership">Приглашаем<br>к сотрудничеству дилеров!</p>
+            <p class="contacts__partnership">Приглашаем к&nbsp;сотрудничеству дилеров!</p>
             <p class="contacts__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
           </div>
         </div>
