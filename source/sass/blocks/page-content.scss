@@ -1,14 +1,22 @@
 .page-content__header {
-  width: 100%;
+  width: 280px;
+  margin: 0 auto;
   padding-top: 22px;
-  padding-bottom: 22px;
   background-color: $color-light;
 }
 
 .page-content__title {
-  width: 280px;
-  margin: 0 auto;
+  margin: 0;
+  margin-bottom: 22px;
   font-size: 36px;
   font-weight: $font-weight-regular;
   line-height: 60px;
+}
+
+.page-content__text {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: $font-size-main;
+  line-height: $line-height-main;
+  text-transform: uppercase;
 }

@@ -12,4 +12,21 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  width: $width-mobile-max;
+  margin: 0 auto;
+}
+
+.catalog__button--more {
+  color: $color-off-text;
+  background-color: $color-off;
+
+  &:hover,
+  &:focus {
+    background-color: $color-off-darker;
+  }
+
+  &:active {
+    color: rgba($color-off-text, 0.3);
+    background-color: $color-off-darker;
+  }
 }

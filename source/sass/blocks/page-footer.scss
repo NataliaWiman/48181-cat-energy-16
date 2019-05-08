@@ -1,7 +1,4 @@
 .page-footer {
-  padding-top: 39px;
-  padding-bottom: 22px;
-
   color: $color-off-text;
   background-color: $color-off;
 }
@@ -12,8 +9,9 @@
 }
 
 .page-footer__logo {
-  text-align: center;
+  padding-top: 39px;
   padding-bottom: 22px;
+  text-align: center;
   border-bottom: 1px solid darken($color-light, 15);
 }
 

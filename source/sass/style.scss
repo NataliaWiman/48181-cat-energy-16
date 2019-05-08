@@ -3,11 +3,18 @@
 @import "global.scss";
 @import "visually-hidden.scss";
 
+@import "blocks/additional.scss";
+@import "blocks/additional-item.scss";
+@import "blocks/additional-promo.scss";
 @import "blocks/button.scss";
 @import "blocks/catalog.scss";
 @import "blocks/catalog-item.scss";
+@import "blocks/contacts.scss";
+@import "blocks/changes.scss";
 @import "blocks/copyright.scss";
+@import "blocks/example.scss";
 @import "blocks/features.scss";
+@import "blocks/form.scss";
 @import "blocks/how-it-works.scss";
 @import "blocks/main-nav.scss";
 @import "blocks/nav-list.scss";

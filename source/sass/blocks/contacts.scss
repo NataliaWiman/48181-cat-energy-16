@@ -1,0 +1,40 @@
+.contacts {
+  background-color: $color-off;
+
+  &--main {
+    background-color: $color-light;
+  }
+}
+
+.contacts__info {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+.contacts__partnership {
+  width: $width-mobile-wrapper-half;
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.contacts__address {
+  width: $width-mobile-wrapper-half;
+  margin: 0;
+  width: 140px;
+  font-family: $font-secondary;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.contacts__map {
+  width: 320px;
+  margin: 0 auto;
+  height: 360px;
+  background-image: url("../img/bg-map-mobile@1x.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
